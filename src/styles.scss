@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+html, body { height: 100%; }
+body {
+  margin: 0;
+  //font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family:  "Nunito", sans-serif ;
+  height: 100%;
+
+}
+
+.success{
+  background-color: #1da11d;
+}
+
+snack-bar-container.mat-snack-bar-container {
+  color: white !important;
+  background-color: #f89142 !important;
+  border-color: #c3e6cb !important;
+}
+
+
+iframe{
+  width: 1000px!important;
+  height: 1000px!important;
+}

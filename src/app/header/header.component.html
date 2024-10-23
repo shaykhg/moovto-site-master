@@ -1,0 +1,135 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"
+  ><img alt="" class="logo" src="assets/img/logonew.png"/>
+  </a>
+  <button
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    class="navbar-toggler"
+    data-target="#navbarSupportedContent"
+    data-toggle="collapse"
+    type="button"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto">
+<!--      <li class="nav-item active">-->
+<!--        <a class="nav-link" routerLink="/"-->
+<!--        >{{ "home" | language }}<span class="sr-only">(current)</span></a-->
+<!--        >-->
+<!--      </li>-->
+
+      <li class="nav-item dropdown">
+        <a
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="nav-link dropdown-toggle"
+          data-toggle="dropdown"
+          href="#"
+          role="button"
+        >
+          {{ "services" | language }}
+        </a>
+        <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+          <a
+            class="dropdown-item list-item-margin"
+            routerLink="/moving-delivery"
+          >{{ "movingDelivery" | language }}</a
+          >
+          <a
+            class="dropdown-item list-item-margin"
+            routerLink="/parcel-delivery"
+          >{{ "parcelDelivery" | language }}</a
+          >
+          <a
+            class="dropdown-item list-item-margin"
+            routerLink="parcel-return"
+          >{{ "parcelReturn" | language }}</a
+          >
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="nav-link dropdown-toggle"
+          data-toggle="dropdown"
+          href="#"
+          role="button"
+        >
+          {{ translation.getLang() }}
+        </a>
+
+        <div aria-labelledby="navbarDropdown" class="dropdown-menu text-center">
+          <!--          <div class="d-flex flex-column drop_btn align-items-center">-->
+
+          <span
+            (click)="this.translation.changeLanguage('en')"
+            class="mb-1 drop_btn nav-link lang_btn"
+          >English</span
+          >
+          <span
+            (click)="this.translation.changeLanguage('fi')"
+            class="drop_btn nav-link lang_btn"
+          >Finnish</span
+          >
+          <!--          </div>-->
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          aria-expanded="false"
+          aria-haspopup="true"
+          class="nav-link dropdown-toggle"
+          data-toggle="dropdown"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+        >
+          {{ "about" | language }}
+        </a>
+        <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+          <a
+            class="dropdown-item list-item-margin"
+            routerLink="/terms_conditions"
+          >{{ "termsCondition" | language }}</a
+          >
+          <a class="dropdown-item list-item-margin" routerLink="/policy">
+            {{ "privacy" | language }}
+          </a>
+        </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/pricing">
+         {{"pricing"|language}}
+        </a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/become-rider"
+        >{{ "becomeRider" | language }}
+        </a>
+      </li>
+<!--      <li class="nav-item active btn_google">-->
+<!--        <a-->
+<!--          [href]="(operatingSystem === 'Windows') || (operatingSystem === 'Android') ?  'https://play.google.com/store/apps/details?id=app.moov.to' : 'https://apps.apple.com/us/app/moovto/id1562355638'"-->
+<!--          class="download_btn text-decoration-none mt-3"-->
+<!--          target="_blank"-->
+<!--        >{{ "download" | language }}</a-->
+<!--        >-->
+<!--      </li>-->
+      <li class="nav-item active btn_google">
+        <a
+          (click)="openDialog()"
+          class="download_btn text-decoration-none mt-3"
+          target="_blank" style="cursor: pointer;"
+        >{{ "orderButton" | language }}</a
+        >
+      </li>
+
+    </ul>
+  </div>
+</nav>

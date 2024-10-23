@@ -1,0 +1,223 @@
+{
+    "home": "Home",
+    "current":"current",
+    "services":" Services",
+    "movingDelivery":"Moving & Delivery",
+    "parcelDelivery":"Parcel Delivery",
+    "parcelReturn":"Parcel Return",
+    "lang":"Language",
+    "becomeRider":"Become Rider ",
+    "orderButton":"Order",
+    "moveitemLocal":"We move and deliver any items, even from your local post office.",
+    "movingHome":"Moving home or need a parcel delivered from local post office, we delivery everything",
+    "assistwith":"Assistance with",
+    "moving":"moving",
+    "choosePeople":"Choose number of people you need while moving. We help you move heavy item with extra people.",
+    "deliveryTime":"Delivery time that suits you",
+    "suitYou":"suits you",
+    "deliverEvening":"We also deliver in evenings and weekends. Choose any time range when you are home.",
+    "payAfter":"Payment after delivery",
+    "delivery":"delivery",
+    "dontpayPlaceorder":"You don't pay anything while placing order. We charge you only after delivery",
+    "recieveParcel":"Receive parcels",
+    "atHome":"at home",
+    "pickparcelLocal":"We pick your parcels from local post office and deliver them straight to your home",
+    "movingdeliveryDescription":"Deliver or move items from point 1 to point 2. We deliver range of items, such as letters, parcels, furniture, home appliances, electronics, anything and everything. If you need help with assistance, indicate how many people you require and we'll send you extra hands",
+    "parceldelivery":"Parcel & Delivery",
+    "parceldeliverDescription":"Now sit in the comfort of your home and get parcels from your local post office delivered straight to your home. Just upload image or snapshot of shipment details. Sign power of attorney and choose times that you are home.",
+    "parcelreturnDescription":"Returning a parcel to your local post office is now a breeze! Just tell us times when you are home. Rider comes, Picks up the package and deliver it straight to your local post office.",
+    "lowestFee":"LOWEST FEES WITH BEST IN CLASS DELIVERY SERVICE",
+    "lowestfeeDescription":"Moovto is Finland's first mobile app to help you move or get things delivered. Use the app from the convenience of your home and get moving done through the comfort of your mobile. Service is cheap, reliable and easy to use.",
+    "Testimonial1":"Moovto app is easy to use, especially moving home furniture was pretty cheap.",
+    "Testimonial2":"Parcel delivery straight to home is a great feature. I can now order parcels home from posti.",
+    "Testimonial3":"I took snapshot of my parcel sms and it came straight home. Great service!",
+    "Testimonial4":"Its nice that I can add extra people to help me carry my home items though moovto app.",
+    "Testimonial5":"Cheap and fast moving service. Normally a van costs a lot, but through this app, it was pretty decent price.",
+    "Testimonial6":"Finally I don't have to go outside to return my parcels. Rider came home and returned my parcel.",
+    "becomeCustomer":"Become our customers",
+     "downloadandCustomer":"Download the Moovto App on playstore and become our customer",
+     "sendMsg":"Send Us A Message",
+     "moversHelpyou":"Moovto is Finland's first mobile app to help you move or get things delivered",
+     "send":"Send",
+     "footer":"Facebook",
+     "insta":"Instagram",
+     "twitter":"Twitter",
+     "email":"Email",
+     "copyText":"Copyright 2021 -All rights reserved",
+     "chooseVehicle":"Choose vehicle",
+     "bycleScooter":"Bicycle or scooter",
+     "bycleDescription":"Send small items such as letters or parcels through a bike or scooter and save money. It's suitable for small distances.",
+     "car":"Car",
+     "carDescription":"If your moving items fit in car, then we can deliver it for a distance of",
+     "van":"Van",
+     "vanDescription":"Move or get delivered any large or heavy items through our van delivery. Ask for extra people to help you move.",
+     "howWork":"How it works?",
+     "movingItem":"Moving item",
+     "tellusWant":"Tell us what items you want us to  pick & drop",
+     "move":"move",
+     "deliverSchedule":"Delivery schedule",
+     "chooseDelivery":"Choose a delivery schedule that",
+     "suitsYou":"suits you",
+    "chooseVehicleDesc":"Choose a vehicle that suit this delivery(bycle,schooter,car,van).",
+    "pickOrder":"Pick your order",
+    "wheretopick":"Tell us where to pick and where to",
+    "drop":"drop",
+    "dropOrder":"Drop your order",
+    "wheredropOrder":"Tell us where to drop your",
+    "order":"order",
+    "placeOrder":"Place your order",
+    "placeorderSmooth":"Place your order and relax for a smooth delivery",
+    "moveEverything":"We move everything",
+    "letters":"Letters",
+    "parcels":"Parcels",
+    "carMoter":"Car and motor spare",
+    "domesticApp":"Domestic Appliances",
+    "buildingMaterial":"Building Material",
+    "sEquipment":"Sports Equipment",
+    "consumerElec":"Consumer Electronics",
+    "nameit":"You name it!",
+    "seeandGet":"See what you will get with us",
+    "getwithusDescription":"Whether you have an SMS or a Saapimusilmouitus(arrival notification), you can upload this information to our app and get parcel delivered from local post office to your home.",
+    "uploadSnap":"Upload snapshot of SMS or ",
+    "Saap":"Saapimusilmoitus",
+    "fillAdd":" Fill your local post office address and parcel ",
+    "id":"id",
+    "fillHomeAdd":"Fill your home address",
+    "timeofParcel":"Tell us what time you want the parcel",
+    "delivered":"delivered",
+    "getparcelComfort":" Get your parcel delivered at the comfort of ",
+    "yourHome":"your home",
+    "downrecieveParcel":"Download The App And Receive Your First Parcel",
+    "pickAdd":"Pickup address",
+    "fillHome":"Fill in your home pickup address",
+    "returnAdd":"Return address",
+    "fillreturnAdd":"Fill return address",
+    "pickTime":"Pickup time",
+    "timeofParcelHome":"Tell us what times you want the parcel to be picked from your home",
+    "placeO":"Place order",
+    "orderwaitofRider":" Place order and wait for rider to pick parcel from your home",
+    "homeToadd":"Home to Any return address",
+    "hometoAddDescription":" Whether you want items to be returned to local post office or to any other return address , We'll get it returned.",
+    "whatOffer":"What we offer",
+    "deliverFoot":"Deliver on foot or on any vehicle",
+    "deliverFootDes":"You are not limited! With us, you can always deliver whether you want to walk or own a van, car, scooter.",
+    "freedomEarn":"Freedom of earning",
+    "deliverTimeSuits":"Choose a delivery time that suits you. For van deliveries, we agree on times with you in advance. For parcel deliveries, you can define your own times.",
+    "whyUs":"Why Us?",
+    "freedomwork":"Freedom of working",
+    "deliverwherever":"Deliver whenever you like and wherever you like.",
+    "earnMore":"Earn More",
+    "earnDes":"Item delivery on van pays more for moving. Parcel delivery is short distance, so you can combine multiple orders to earn more.",
+    "joinHands":"Join hands",
+    "askFriend":"Ask your friend to join you while moving in van and your friend can earn too.",
+    "fastonboard":"Fast onboarding",
+    "joinEasy":"Joining us is easy and fast. Just send us email and we do the rest.",
+    "joinUs":"Join us now",
+    "andbecomeRider":"And become a Rider!",
+    "name":"Name",
+    "deliverby":"Deliver By",
+    "onfoot":"On Foot",
+    "bycycle":"Bicycle",
+    "scooter":"Scooter",
+    "personalid":"Personal ID",
+    "forcompanies":"For Companies",
+    "tradename":"Trade Name",
+    "businessid":"Business ID",
+    "cheapmoving":"Cheap moving and delivery services",
+    "paylesstime":"why pay so much for a van when you can pay much less per item or per vehicle",
+    "recieveparcel":"recieve your parcel directly at home",
+    "localpostoffice":"why visit your local post office, when we can deliver it directly to your home",
+    "returnParcelHome":"return parcel straight from your home",
+    "riderpickparcel":"rider picks up your return parcel and delivers them to any address you like",
+    "beOwnboss":"be your own boss",
+    "wheretopickOrder":"Tell us where to pick your order",
+    "about":"about",
+    "termsCondition":"terms & conditions",
+    "privacy":"privacy policy",
+    "Subject":"Subject",
+    "yourMsg":"Your Message Here",
+    "simpPricing": "Simple Pricing",
+    "chooseService": "Choose a service for you",
+  "moveDelivery": "Moving & Delivery",
+  "parcelDel": "Parcel Delivery",
+  "calPrice": "Calculate Price",
+  "moveDeliveryPick": "Move or get delivered furniture and other items. We will pick up your items from pickup address through the vehicle of your choice.",
+  "servicePickParcel": "This service picks your parcel from local post office and delivers it straight to your home.",
+  "chooseCategory": "Choose product category",
+  "deliveryByFoot": "We delivery parcels by foot only",
+  "tellUsVehicle": "Tell us in which vehicle your items will fit.",
+  "distance": "Distance",
+  "calculatedPrice": "Calculated Price",
+  "note": "Note:- Prices may differ due to additional charges",
+  "vehicle": "Choose a Vehicle",
+  "pricing": "Pricing",
+  "distanceExceed": "Distance exceed max value",
+  "phone": "Phone"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

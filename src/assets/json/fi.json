@@ -1,0 +1,221 @@
+{
+    "home": "Etusivu",
+    "current":"nykyinen",
+    "services":"Palvelut",
+    "movingDelivery":"Muutto & toimitus",
+    "parcelDelivery":"Paketin toimitus",
+    "parcelReturn":"Paketin palautus",
+    "lang":"Kieli",
+    "becomeRider":"Liity kuljettajaksi",
+    "orderButton":"Tilaa",
+    "moveitemLocal":"Me teemme muutot ja toimitamme minkä tahansa tavaran lähimmästä postista.",
+    "movingHome":"Oli kyse sitten muutosta tai paketin toimittamisesta postitoimistosta, me toimitamme kaiken",
+    "assistwith":"Autamme",
+    "moving":"muutossa",
+    "choosePeople":"Valitse kuinka monta apuhenkilöä tarvitset muuton aikana. Autamme painavien tavaroiden kanssa lisätyövoimalla",
+    "deliveryTime":"Valitse sinulle sopiva toimitusaika",
+    "suitYou":"suits you",
+    "deliverEvening":"Toimitamme myös iltaisin ja viikonloppuisin. Valitse mikä tahansa toimitusaika kun olet kotona.",
+    "payAfter":"Maksa vasta toimituksen jälkeen",
+    "delivery":"delivery",
+    "dontpayPlaceorder":"Et maksa mitään tilausta tehdessäsi. Laskutamme vasta toimituksen jälkeen",
+    "recieveParcel":"Vatsaanota paketit",
+    "atHome":"kotonasi",
+    "pickparcelLocal":"Noudamme pakettisi lähimmästä postin toimipisteestä ja toimitamme ne suoraan kotiisi",
+    "movingdeliveryDescription":"Toimitamme kattavasti tuotteita kuten, kirjeet, paketit, huonekalut, kodinkoneet, elektroniikkaa, vaikka mitä. Jos tarvitset muuttoapua, ilmoita kuinka monta henkilöä tarvitset ja lähetämme avun paikalle.",
+    "parceldelivery":"Paketin toimitus",
+    "parceldeliverDescription":"Istu mukavasti kotona ja tuomme paketit lähimmästä postin toimipaikasta suoraan kotiisi. Lataa vain kuva tai ruudunkaappaus paketin tiedoista. Allekirjoita valtakirja ja valitse sinulle sopiva toimitusaika",
+    "parcelreturnDescription":"Paketin palauttaminen lähimpään postiin sujuu vaivattomasti! Kerro meille vain koska olet kotona. Kuski tulee noutamaan paketin ja toimittaa sen suoraan lähimpään postin toimipisteeseen.",
+    "lowestFee":"Alimmat kustannukset luokkansa parhaasta kuljetuspalvelusta",
+    "lowestfeeDescription":"Moovto on Suomen ensimmäinen sovellus muuttoihin tai tavaroiden toimittamiseen. Käytä sovellusta kätevästi kotoa käsin ja muutto hoituu mukavasti puhelimella. Palvelu on halpa, luotettava ja helppo käyttää.",
+    "Testimonial1":"Moovto sovellus on helppokäyttöinen, erityisesti huonekalujen kuljetus oli melko halpaa",
+    "Testimonial2":"Paketin toimitus suoraan kotiin on upea ominaisuus. Nyt voin tilata paketit kotiin Postista",
+    "Testimonial3":"Otin ruudunkaappauksen paketin tiedoista ja se tuli suoraan kotiin. Loistava palvelu!",
+    "Testimonial4":"Kiva kun pystyn lisäämään henkilöitä kantoavuksi moovto sovelluksen kautta.",
+    "Testimonial5":"Halpa ja nopea muuttopalvelu. Normaalisti pakettiauto maksaa paljon, mutta tämän sovelluksen kautta sen sai sopivaan hintaan.",
+    "Testimonial6":"Vihdoinkin ei tarvitse lähteä kotoa palauttaakseni paketteja. Kuski tuli kotiin ja palautti pakettini.",
+    "becomeCustomer":"Tule asiakkaaksi",
+     "downloadandCustomer":"Lataa Moovto sovellus Play -kaupasta ja tule asiakkaaksemme",
+     "sendMsg":"Ota yhteyttä",
+     "moversHelpyou":"Moovto on Suomen ensimmäinen sovellus muuttoihin tai tavaroiden toimittamiseen.",
+     "send":"Lähetä",
+     "footer":"Facebook",
+     "insta":"Instagram",
+     "twitter":"Twitter",
+     "email":"Sähköposti",
+     "copyText":"Tekijänoikeus 2021 - Kaikki oikeudet pidätetään",
+     "chooseVehicle":"Valitse ajoneuvo",
+     "bycleScooter":"Polkupyörä vai skootteri",
+     "bycleDescription":"Lähetä pienet tavarat kuten kirjeet ja paketit pyörän tai skootterin kyydissä ja säästä rahaa. Sopii lyhyille matkoille.",
+     "car":"Auto",
+     "carDescription":"Jos tavarat sopivat autoon, voimme toimittaa sen 25 kilometrin säteellä",
+     "van":"Pakettiauto",
+     "vanDescription":"Käytä pakettiautotoimitustamme muutossa tai painavien tavaroiden toimituksessa. Pyydä lisää henkilöitä avuksi muuttoon.",
+     "howWork":"Miten se toimii",
+     "movingItem":"Muutettava tavara",
+     "tellusWant":"Kerro meille mitä tuotteita haluat meidän valitsevan ja pudottavan ",
+     "move":"move",
+     "deliverSchedule":"Toimitusaikataulu",
+     "chooseDelivery":"Valitse sinulle sopiva toimitusaikataulu",
+     "suitsYou":"sopii sinulle",
+    "chooseVehicleDesc":"Valitse kulkuneuvo, joka sopii tähän toimitukseen (polkupyörä, skootteri, auto, pakettiauto)",
+    "pickOrder":"Nouda tilauksesi",
+    "wheretopick":"Kerro mistä noudetaan ja minne jätetään",
+    "drop":"drop",
+    "dropOrder":"Jätä tilauksesi",
+    "wheredropOrder":"Kerro meille minne jätämme tilauksesi",
+    "order":"order",
+    "placeOrder":"Tee tilauksesi",
+    "placeorderSmooth":"Tee tilauksesi ja rentoudu odottaessasi sujuvaa toimitusta",
+    "moveEverything":"Me muutamme kaiken",
+    "letters":"Kirjeet",
+    "parcels":"Paketit",
+    "carMoter":"Auton ja moottorin varaosat",
+    "domesticApp":"Kodinkoneet",
+    "buildingMaterial":"Rakennusmateriaalit",
+    "sEquipment":"Urheiluvälineet",
+    "consumerElec":"Kuluttaja elektroniikka",
+    "nameit":"Sinä päätät!",
+    "seeandGet":"Katso mitä voit odottaa meiltä",
+    "getwithusDescription":"Olipa sinulla tekstiviesti tai saapumisilmoitus, voit ladata tiedot sovellukseemme ja saat paketin toimitettuna lähimmästä Postista kotiisi.",
+    "uploadSnap":"Lataa ruudunkaappaus tekstiviestistä tai saapumisilmoituksesta",
+    "Saap":"Saapumisilmoitus",
+    "fillAdd":" Täytä lähimmän postin osoite ja paketin tunnus",
+    "id":"id",
+    "fillHomeAdd":"Täytä kotiosoitteesi",
+    "timeofParcel":"Mihin aikaan haluat paketin toimitettavan",
+    "delivered":"delivered",
+    "getparcelComfort":" Saat paketin mukavasti kotiin toimitettuna",
+    "yourHome":"your home",
+    "downrecieveParcel":"Lataa sovellus ja vastaanota ensimmäinen pakettisi",
+    "pickAdd":"Nouto-osoite",
+    "fillHome":"Kirjoita kotisi nouto-osoite",
+    "returnAdd":"Palautusosoite",
+    "fillreturnAdd":"Täytä palautusosoite",
+    "pickTime":"Noutoaika",
+    "timeofParcelHome":"Ilmoita mihin aikaan haluat paketin noudettavan kotoasi",
+    "placeO":"Tee tilaus",
+    "orderwaitofRider":"Tee tilaus ja odota kun kuljettaja noutaa paketin kotoasi",
+    "homeToadd":"Kotoa mihin tahansa palautusosoitteeseen",
+    "hometoAddDescription":" Haluatpa sitten tavarasi palautettavan lähimpään Postin toimipisteeseen tai mihin tahansa muuhun palautusosoitteeseen, me palautamme sen",
+
+    "whatOffer":"Mitä tarjoamme",
+    "deliverFoot":"Toimita jalan tai millä tahansa ajoneuvolla",
+    "deliverFootDes":"Sinua ei ole rajoitettu! Kanssamme voit aina valita miten toimitat, kävellen ,pakettiautolla, henkilöautolla tai skootterilla.",
+    "freedomEarn":"Vapaus ansaita",
+    "deliverTimeSuits":"Valitse sinulle sopiva toimitusaika. Pakettiautotoimitusten kanssa sovimme aikataulut etukäteen. Pakettitoimituksissa voit määrittää omat ajat.",
+    "whyUs":"Miksi me?",
+    "freedomwork":"Vapaus tehdä töitä",
+    "deliverwherever":"Toimita milloin haluat ja missä haluat.",
+    "earnMore":"Ansaitse enemmän",
+    "earnDes":"Tuotteen toimitus pakettiautolla maksaa enemmän. Pakettien toimitus on lyhyen matkan päässä, joten voit yhdistää useita tilauksia ansaitaksesi enemmän.",
+    "joinHands":"Pyydä apua",
+    "askFriend":"Pyydä ystävääsi avuksesi, kun muutat pakettiautolla, ja ystäväsi voi myös ansaita.",
+    "fastonboard":"Nopea perehdytys",
+    "joinEasy":"Liittyminen meihin on helppoa ja nopeaa. Lähetä meille sähköpostia, niin teemme loput.",
+    "joinUs":"Liity meihin nyt",
+    "andbecomeRider":"Ja tule kuljettajaksi",
+    "name":"Nimi",
+    "deliverby":"Toimitustapasi",
+    "onfoot":"Jalkaisin",
+    "bycycle":"Polkupyörä",
+     "scooter":"Skootteri",
+    "personalid":"Henkilötunnus",
+    "forcompanies":"Yrityksille",
+    "tradename":"Yrityksen nimi",
+    "businessid":"Y-tunnus",
+    "cheapmoving":"Edulliset muutto- ja kuljetuspalvelut",
+    "paylesstime":"Miksi maksaa paljon koko pakusta, kun voit maksaa vähemmän per tavara tai per ajoneuvo",
+    "recieveparcel":"Vastaanota paketti suoraan kotiisi toimitettuna",
+    "localpostoffice":"Miksi mennä lähimpään postiin, kun me voimme toimittaa suoraan kotiisi.",
+    "returnParcelHome":"Palauta paketti kotoasi",
+    "riderpickparcel":"Kuski noutaa palautettavan pakettisi ja vie sen haluamaasi osoitteeseen",
+    "beOwnboss":"Ole oma pomosi",
+    "wheretopickOrder":"kerro meille mistä noutaa tilauksesi",
+    "about":"Tietoa",
+    "termsCondition":"käyttöehdot",
+    "privacy":"Tietosuojakäytäntö",
+    "Subject":"aihe",
+    "yourMsg":"viestisi täällä",
+  "simpPricing": "Yksinkertainen hinnoittelu",
+  "chooseService": "Valitse haluamasi palvelu",
+  "moveDelivery": "Muutto- ja kuljetuspalvelut",
+  "parcelDel": "Paketin kotiinkuljetus",
+  "calPrice": "Laske hinta",
+  "moveDeliveryPick": "Muuttopalvelu tai yksittäisten huonekalusteiden ja muiden tavaroiden kuljetus. Noudamme kuljetettavat tavarat haluamastasi\nnouto-osoitteesta tilauksessa valitsemallasi ajoneuvolla.",
+  "servicePickParcel": "Postipaketin nouto valitsemastasi noutopisteestä ja kuljetus suoraan kotiovellesi.",
+  "chooseCategory": "Valitse tuotekategoria",
+  "deliveryByFoot": "Toimitamme paketteja vain jalan.",
+  "tellUsVehicle": "Valitse mikä kuljetustapa tai ajoneuvo soveltuu kuljetettaville tuotteillesi.",
+  "distance": "Etäisyys",
+  "calculatedPrice": "Laskettu hinta",
+  "note": "Huom. Hinnat voivat vaihdella mahdollisten muutosten tai lisäkustannuksien vuoksi.",
+  "vehicle": "Valitse ajoneuvo",
+  "pricing": " Hinnasto",
+  "distanceExceed":"Etäisyys ylittää maksimiarvon",
+  "phone": "Suhelinnumero"
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

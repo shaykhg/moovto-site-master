@@ -1,0 +1,115 @@
+<div class="container text-center margin  h-75-min">
+  <div>
+    <h2  class="simple"><i>{{"simpPricing"|language}}</i></h2>
+    <h4 class="service">{{"chooseService"|language}}</h4>
+    <h6 class="margin-btm" *ngIf="service[0].active"> {{"moveDeliveryPick"|language}}</h6>
+    <h6 class="margin-btm" *ngIf="service[1].active">{{"servicePickParcel"|language}}</h6>
+  </div>
+  <div class="">
+    <button class="btn btn2"  *ngFor="let item of service"
+    [ngClass]="item.active ? 'background-color' : 'back'"
+            (click)="common( item, 1)">{{this.translation.getLang() === 'en'? item.name : item.nameFi}}</button>
+
+
+  </div>
+
+  <div *ngIf="service[0].active" class="margin1">
+    <h4 class="service mar-bottom" >{{"chooseCategory"|language}}</h4>
+<!--    <h6 class="margin-btm">This service picks your parcel from local post office and delivers it straight to your home.-->
+<!--    </h6>-->
+    <div class="button-product">
+      <div class="btn-center">
+        <button class="btn btn2" *ngFor="let list of listCategories"
+                [ngClass]="list.active ? 'background-color' : 'back'"
+                (click)="common(list, 2)" > {{this.translation.getLang() === 'en'? list.name : list.name_fi}}
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="(chooseCategory && service[0].active)" class="margin">
+    <h4 class="service">{{"vehicle"|language}}</h4>
+    <h6 class="margin-btm">{{"tellUsVehicle"|language}}</h6>
+      <div class="button-product" >
+        <div class="btn-center">
+        <button class="btn btn2" *ngFor="let item of listVehicle"
+                [ngClass]="item.active ? 'background-color' : 'back'"
+                (click)="common( item, 3 )">{{this.translation.getLang() === 'en'? item.name : item.name_fi}}
+        </button>
+        </div>
+      </div>
+  </div>
+  <div *ngIf="service[1].active" class="margin">
+    <h2> {{"deliveryByFoot"|language}}</h2>
+  </div>
+
+
+  <div class="margin"><button class="btn btn1  price" (click)="calculate()">{{"calculatedPrice"|language}}</button></div>
+
+  <div *ngIf="showTable && service[0].active">
+    <div class="wrapper" >
+      <table class="">
+        <tr>
+          <th class="distance">{{"distance"|language}}</th>
+          <th class="price-card">{{"calculatedPrice"|language}}</th>
+        </tr>
+        <tbody>
+        <tr *ngFor="let item of tableData">
+          <td >{{item.minDistance}}-{{item.maxDistance}}km</td>
+
+          <td *ngIf="!item.valid;else valid">{{item.text}}</td>
+          <ng-template #valid>
+            <td *ngIf="item.minCharge !== item.maxCharge; else same">{{item.valid ? item.minCharge + '&euro; ' + '-' + item.maxCharge + '&euro;'  : item.text}}</td>
+            <ng-template #same>
+              <td>{{item.minCharge}}&euro;</td>
+            </ng-template>
+          </ng-template>
+
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 class="mar-bottom">{{"note"|language}}</h3>
+  </div>
+
+  <div *ngIf="showTable && service[1].active">
+    <div class="wrapper" >
+      <table class="">
+        <tr>
+          <th class="distance">{{"distance"|language}}</th>
+          <th class="price-card">{{"calculatedPrice"|language}}</th>
+        </tr>
+        <tbody>
+        <tr>
+          <td >{{tableData[0].minDistance}}-{{tableData[0].maxDistance}}km</td>
+
+          <td *ngIf="tableData[0].minCharge !== tableData[0].maxCharge;else parcelSame">{{tableData[0].valid ? tableData[0].minCharge + '&euro; ' + '-' + tableData[0].maxCharge + '&euro;'  : tableData[0].text}}</td>
+          <ng-template #parcelSame><td>
+            {{tableData[0].minCharge}}&euro;
+          </td></ng-template>
+
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+
+    <h3 class="mar-bottom">{{"note"|language}}</h3>
+
+  </div>
+
+  <div class="download_btn">
+    <a
+      class="text-decoration-none"
+      href="https://play.google.com/store/apps/details?id=app.moov.to"
+      target="_blank"
+    ><img alt="" class="btn_img" src="assets/img/google-play-badge.png"
+    /></a>
+    <a
+      class="text-decoration-none"
+      href="https://apps.apple.com/us/app/moovto/id1562355638"
+      target="_blank"
+    ><img alt="" class="app-btn_img" src="assets/img/app-store.png"
+    /></a>
+  </div>
+</div>

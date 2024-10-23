@@ -1,0 +1,558 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 header_text">
+      <h1 class="header">
+        {{ "moveitemLocal" | language }}
+      </h1>
+      <p class="fs-5">
+        {{ "movingHome" | language }}
+      </p>
+      <div class="header_bttn">
+        <a
+          class="text-decoration-none"
+          href="https://play.google.com/store/apps/details?id=app.moov.to"
+          target="_blank"
+          ><img alt="" class="btn_img" src="assets/img/google-play-badge.png"
+        /></a>
+        <a
+          class="text-decoration-none"
+          href="https://apps.apple.com/us/app/moovto/id1562355638"
+          target="_blank"
+          ><img alt="" class="app-btn_img" src="assets/img/app-store.png"
+        /></a>
+      </div>
+    </div>
+    <div class="col-lg-6 mt-4">
+      <img alt="" class="img-fluid" src="assets/img/home-finnish.png" />
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-lg-3 p-4">
+      <div class="service">
+        <img
+          alt=""
+          class="service_img img-fluid"
+          src="assets/img/assistance-with-moving.png"
+        />
+        <div class="mt-3 text-center">
+          <h4 class="my-4">
+            {{ "assistwith" | language }} <br />
+            {{ "moving" | language }}
+          </h4>
+          <p>
+            {{ "choosePeople" | language }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 p-4">
+      <div class="service">
+        <img
+          alt=""
+          class="service_img img-fluid"
+          src="assets/img/delivery-time.png"
+        />
+        <div class="mt-3 text-center">
+          <h4 class="my-4">
+            {{ "deliveryTime" | language }}<br />
+
+          </h4>
+          <p>
+            {{ "deliverEvening" | language }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 p-4">
+      <div class="service">
+        <img
+          alt=""
+          class="service_img img-fluid"
+          src="assets/img/paytm-after-delivery.png"
+        />
+        <div class="mt-3 text-center">
+          <h4 class="my-4">
+            {{ "payAfter" | language }}<br />
+
+          </h4>
+          <p>
+            {{ "dontpayPlaceorder" | language }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 p-4">
+      <div class="service">
+        <img alt="" class="service_img img-fluid" src="assets/img/parcel.png" />
+        <div class="mt-3 text-center">
+          <h4 class="my-4">
+            {{ "recieveParcel" | language }}<br />
+            {{ "atHome" | language }}
+          </h4>
+          <p>
+            {{ "pickparcelLocal" | language }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-lg-6 moveing_img">
+      <img
+        alt=""
+        class="img-fluid cont_img"
+        src="assets/img/assistancemoving.png"
+      />
+    </div>
+    <div class="col-lg-6 cont_text">
+      <h2 class="my-4">{{ "movingDelivery" | language }}</h2>
+      <p>
+        {{ "movingdeliveryDescription" | language }}
+      </p>
+    </div>
+    <div class="col-lg-6">
+      <img
+        alt=""
+        class="img-fluid cont_img moveing_imgTwo"
+        src="assets/img/assistancemoving.png"
+      />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-6">
+      <img alt="" class="img-fluid" src="assets/img/parceldelivery.png" />
+    </div>
+    <div class="col-lg-6 cont_service">
+      <h2 class="my-4">{{ "parceldelivery" | language }}</h2>
+      <p>
+        {{ "parceldeliverDescription" | language }}
+      </p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-6 moveing_img">
+      <img
+        alt=""
+        class="img-fluid cont_img"
+        src="assets/img/parcelreturn.png"
+      />
+    </div>
+    <div class="col-lg-6 cont_service">
+      <h2 class="my-4">{{ "parcelReturn" | language }}</h2>
+      <p>
+        {{ "parcelreturnDescription" | language }}
+      </p>
+    </div>
+    <div class="col-lg-6">
+      <img
+        alt=""
+        class="img-fluid cont_img moveing_imgTwo"
+        src="assets/img/parcel_return.png"
+      />
+    </div>
+  </div>
+</div>
+<div class="container-fluid update">
+  <div style="margin-left: 35px; margin-right: 35px">
+    <div class="row">
+      <div class="col-lg-6 p-5 align-self-center">
+        <h2 class="my-4">{{ "lowestFee" | language }}</h2>
+        <p>
+          {{ "lowestfeeDescription" | language }}
+        </p>
+        <a
+          class="text-decoration-none"
+          href="https://play.google.com/store/apps/details?id=app.moov.to"
+          target="_blank"
+          ><img alt="" class="btn_img" src="assets/img/google-play-badge.png"
+        /></a>
+        <a
+          class="text-decoration-none"
+          href="https://apps.apple.com/us/app/moovto/id1562355638"
+          target="_blank"
+          ><img alt="" class="app-btn_img" src="assets/img/app-store.png"
+        /></a>
+      </div>
+      <div class="col-lg-6 text-right">
+        <img
+          alt=""
+          class="img-fluid animate__animated animate__backInRight"
+          src="assets/img/lower.png"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+<div style="margin: 50px">
+  <owl-carousel-o [options]="customOptions">
+    <ng-template class="slide" carouselSlide>
+      <mat-card class="mat-elevation-z2 testimonial-cont">
+        <div class="quote">
+          <svg style="width: 75px; height: 75px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M10,7L8,11H11V17H5V11L7,7H10M18,7L16,11H19V17H13V11L15,7H18Z"
+            />
+          </svg>
+        </div>
+        <div>
+          Moovto sovellus on helppokäyttöinen, erityisesti huonekalujen kuljetus oli melko halpaa
+        </div>
+
+        <div class="my-3" style="color: #f89142">
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <div>Katja Yli-ratiola</div>
+        </div>
+        <span class="testimonial-img-cont">
+          <img class="test-img" src="/assets/img/testimonial1.png" alt="" />
+        </span>
+      </mat-card>
+    </ng-template>
+    <ng-template class="slide" carouselSlide>
+      <mat-card class="mat-elevation-z2 testimonial-cont">
+        <div class="quote">
+          <svg style="width: 75px; height: 75px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M10,7L8,11H11V17H5V11L7,7H10M18,7L16,11H19V17H13V11L15,7H18Z"
+            />
+          </svg>
+        </div>
+        <div>
+          "Paketin toimitus suoraan kotiin on upea ominaisuus. Nyt voin tilata paketit kotiin Postista
+        </div>
+        <div class="my-3" style="color: #f89142">
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <div>Antti Virtanen</div>
+        </div>
+        <span class="testimonial-img-cont">
+          <img class="test-img" src="/assets/img/testimonial2.png" alt="" />
+        </span>
+      </mat-card>
+    </ng-template>
+
+    <ng-template class="slide" carouselSlide>
+      <mat-card class="mat-elevation-z2 testimonial-cont">
+        <div class="quote">
+          <svg style="width: 75px; height: 75px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M10,7L8,11H11V17H5V11L7,7H10M18,7L16,11H19V17H13V11L15,7H18Z"
+            />
+          </svg>
+        </div>
+        <div>
+          Otin ruudunkaappauksen paketin tiedoista ja se tuli suoraan kotiin. Loistava palvelu!
+        </div>
+        <div class="my-3" style="color: #f89142">
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <div>Lari Koskinen</div>
+        </div>
+        <span class="testimonial-img-cont">
+          <img class="test-img" src="/assets/img/testimonial3.png" alt="" />
+        </span>
+      </mat-card>
+    </ng-template>
+
+    <ng-template class="slide" carouselSlide>
+      <mat-card class="mat-elevation-z2 testimonial-cont">
+        <div class="quote">
+          <svg style="width: 75px; height: 75px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M10,7L8,11H11V17H5V11L7,7H10M18,7L16,11H19V17H13V11L15,7H18Z"
+            />
+          </svg>
+        </div>
+        <div>
+          Kiva kun pystyn lisäämään henkilöitä kantoavuksi moovto sovelluksen kautta.
+        </div>
+        <div class="my-3" style="color: #f89142">
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <div>Seppo Lankinen</div>
+        </div>
+        <span class="testimonial-img-cont">
+          <img class="test-img" src="/assets/img/testimonial4.png" alt="" />
+        </span>
+      </mat-card>
+    </ng-template>
+
+    <ng-template class="slide" carouselSlide>
+      <mat-card class="mat-elevation-z2 testimonial-cont">
+        <div class="quote">
+          <svg style="width: 75px; height: 75px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M10,7L8,11H11V17H5V11L7,7H10M18,7L16,11H19V17H13V11L15,7H18Z"
+            />
+          </svg>
+        </div>
+        <div>
+          Cheap and fast moving service. Normally a van costs a lot, but through this app, it was pretty decent price.
+        </div>
+        <div class="my-3" style="color: #f89142">
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <div>Nacho Gonzalez</div>
+        </div>
+        <span class="testimonial-img-cont">
+          <img class="test-img" src="/assets/img/testimonial5.png" alt="" />
+        </span>
+      </mat-card>
+    </ng-template>
+    <ng-template class="slide" carouselSlide>
+      <mat-card class="mat-elevation-z2 testimonial-cont">
+        <div class="quote">
+          <svg style="width: 75px; height: 75px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M10,7L8,11H11V17H5V11L7,7H10M18,7L16,11H19V17H13V11L15,7H18Z"
+            />
+          </svg>
+        </div>
+        <div>
+          Finally I don't have to go outside to return my parcels. Rider came home and returned my parcel.
+        </div>
+        <div class="my-3" style="color: #f89142">
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+            />
+          </svg>
+          <div>Eric Gaudin </div>
+        </div>
+        <span class="testimonial-img-cont">
+          <img class="test-img" src="/assets/img/testimonial6.png" alt="" />
+        </span>
+      </mat-card>
+    </ng-template>
+  </owl-carousel-o>
+</div>
+<div class="container-fluid contact_us">
+  <div class="row p-5 margin_left">
+    <div class="col-lg-6 align-self-center text-start">
+      <div class="contact_with">
+        <h1 class="text-white">{{ "becomeCustomer" | language }}</h1>
+        <h4 class="text-white contact_text">
+          {{ "downloadandCustomer" | language }}
+        </h4>
+      </div>
+      <div class="google_btn">
+        <a
+          class="text-decoration-none"
+          href="https://play.google.com/store/apps/details?id=app.moov.to"
+          target="_blank"
+          ><img alt="" class="btn_img" src="assets/img/google-play-badge.png"
+        /></a>
+        <a
+          class="text-decoration-none"
+          href="https://apps.apple.com/us/app/moovto/id1562355638"
+          target="_blank"
+          ><img alt="" class="app-btn_img" src="assets/img/app-store.png"
+        /></a>
+      </div>
+    </div>
+
+    <div class="col-lg-6 p-5 contact_form">
+      <div class="card py-5">
+        <div class="mb-4 cont_msg">
+          <h2 class="cont_msg my-4">{{ "sendMsg" | language }}</h2>
+          <p>
+            {{ "moversHelpyou" | language }}
+          </p>
+        </div>
+        <form [formGroup]="queryForm">
+          <div class="d-flex w-100 contact_from">
+            <div class="mb-3 me-3">
+              <input
+                class="form-control"
+                placeholder="{{ 'name' | language }}"
+                type="text"
+                formControlName="name"
+              />
+            </div>
+            <div class="mb-3 me-3">
+              <input
+                class="form-control"
+                placeholder="{{ 'email' | language }}"
+                type="email"
+                formControlName="email"
+
+              />
+            </div>
+            <div class="mb-3 me-3">
+              <input
+                class="form-control"
+                placeholder="{{ 'Subject' | language }}"
+                type="text"
+                formControlName="subject"
+
+              />
+            </div>
+          </div>
+          <div class="mb-3 px-1">
+            <textarea
+              class="form-control"
+              placeholder="{{ 'yourMsg' | language }}"
+              rows="3"
+              type="text"
+              formControlName="msg"
+
+            ></textarea>
+          </div>
+          <div class="mb-3">
+            <button *ngIf="!progress" (click)="sendEmail()" [disabled]="!queryForm.valid" class="submit_btn" type="submit">
+              {{ "send" | language }}
+            </button>
+            <mat-spinner *ngIf="progress" [diameter]="25"></mat-spinner>
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--<div id="form"></div>-->

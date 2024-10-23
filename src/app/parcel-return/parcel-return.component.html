@@ -1,0 +1,116 @@
+<div class="container-fluid p-0">
+  <div class="" *ngIf="translate.lang === 'en'">
+    <img alt="" class="img-fluid web_img" src="assets/img/2.jpg" />
+    <img
+      alt=""
+      class="img-fluid phn_img"
+      src="assets/img/parcel_return_mob.jpg"
+    />
+  </div>
+
+  <div class="" *ngIf="translate.lang === 'fi'">
+    <img alt="" class="img-fluid web_img" src="assets/img/finnish-banner/parcel_return_web.png" />
+    <img
+      alt=""
+      class="img-fluid phn_img"
+      src="assets/img/finnish-banner/phone/parcel_return.png"
+    />
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="text-center delivery_heading">
+        <h1>{{ "howWork" | language }}</h1>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="box">
+          <img
+            alt=""
+            class="service_img img-fluid"
+            src="assets/img/home_2.png"
+          />
+          <div class="mt-3 text-center">
+            <h4>{{ "pickAdd" | language }}</h4>
+            <p class="px-4 text-center">{{ "fillHome" | language }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="box">
+          <img
+            alt=""
+            class="service_img img-fluid"
+            src="assets/img/return.png"
+          />
+          <div class="mt-3 text-center">
+            <h4>{{ "returnAdd" | language }}</h4>
+            <p class="px-4 text-center">{{ "fillreturnAdd" | language }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="box">
+          <img
+            alt=""
+            class="service_img img-fluid"
+            src="assets/img/tryck.png"
+          />
+          <div class="mt-3 text-center">
+            <h4>{{ "pickTime" | language }}</h4>
+            <p class="px-4 text-center">
+              {{ "timeofParcelHome" | language }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="box">
+          <img
+            alt=""
+            class="service_img img-fluid"
+            src="assets/img/place-order_1.png"
+          />
+          <div class="mt-3 text-center">
+            <h4>{{ "placeO" | language }}</h4>
+            <p class="px-4 text-center">
+              {{ "orderwaitofRider" | language }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-cont">
+    <div class="row return_parcel">
+      <div class="col-lg-6 col-sm-12 text-center">
+        <img alt="" class="img-fluid" src="/assets/img/return-bottom.png" />
+      </div>
+      <div class="col-lg-6 col-sm-12 align-self-center">
+        <div class="return-bot-head">{{ "homeToadd" | language }}</div>
+        <p class="return-bot-desc">
+          {{ "hometoAddDescription" | language }}
+        </p>
+
+        <div class="play-btn-cont">
+          <a
+            href="https://play.google.com/store/apps/details?id=app.moov.to"
+            target="_blank"
+            ><img
+              alt=""
+              class="play-btn"
+              src="/assets/img/google-play-badge.png"
+          /></a>
+          <a
+            href="https://apps.apple.com/us/app/moovto/id1562355638"
+            target="_blank"
+            ><img
+              alt=""
+              class="app-btn"
+              src="/assets/img/app-store.png"
+          /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

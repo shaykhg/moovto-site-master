@@ -1,0 +1,209 @@
+.margin{
+  margin-top: 40px;
+}
+.simple{
+  color: #f89142;
+  font-weight: bold;
+}
+.service{
+  margin: 20px 0 5px 0;
+  font-weight: 600;
+}
+.margin-btm{
+  margin-bottom: 35px;
+}
+.btn{
+  margin-left: 14px;
+  margin-right: 14px;
+  width: 19%;
+  height: 53px;
+  font-size: 18px;
+  padding: 0;
+}
+.btn1{
+  background: #f89142;
+  box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 6%);
+  color: white;
+}
+.btn2{
+  box-shadow: 1px 1px 10px 2px rgb(0 0 0 / 6%);
+  margin-bottom: 20px;
+}
+
+.background-color{
+  background: #f89142;
+  color: white;
+}
+.back{
+background-color: white;
+  color: black;
+}
+
+.margin1{
+  margin-top: 60px;
+}
+
+.margin2{
+  margin-top: 40px;
+}
+
+.price{
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  overflow: auto;
+  border-radius: 11px;
+  border: 1px solid gray;
+  margin: 30px auto;
+  width: 50%;
+  text-align: center;
+
+}
+table{
+  border-style: hidden;
+  width:100%;
+  max-width: 100%;
+
+}
+
+th{
+  border-right: 1px solid gray;
+  padding: 10px;
+  font-weight: normal;
+}
+
+td{
+  padding: 15px;
+  border: 1px solid gray;
+  border-bottom: 1px solid transparent;
+  font-size: 17px;
+}
+.Km{
+    border: 1px solid gray;
+  }
+.price-card{
+  background: #f89142;
+  border-color: #f89142;
+  color: white;
+  font-size: 20px;
+}
+.distance{
+  font-size: 20px;
+}
+.button-product{
+  text-align: center;
+}
+.btn-center{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.mar-bottom{
+  margin-bottom: 30px;
+}
+.download_btn{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.btn_img {
+  height: 68px;
+}
+.app-btn_img {
+  height: 47px;
+}
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+  .btn{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 39%;
+    height: 46px;
+    font-size: 13px;
+    margin-bottom: 15px;
+  }
+  .service{
+    font-weight: normal;
+  }
+  .margin{
+    margin-top: 20px;
+  }
+  .margin1{
+    margin-top: 0;
+  }
+  .service{
+    margin: 15px 0;
+  }
+  .margin2{
+    margin-top: 0;
+  }
+ .wrapper{
+   border-radius: 9px;
+   width: 70%;
+ }
+  tbody{
+    font-size: 12px;
+  }
+  th{
+    font-size: 14px;
+  }
+  td{
+    padding: 12px;
+    font-size: 14px;
+  }
+  .distance{
+    font-size: 14px;
+  }
+  .price-card{
+    font-size: 14px;
+  }
+  .app-btn_img{
+    height: 50px;
+  }
+  .download_btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+  }
+  //.button-product{
+  //  text-align: center;
+  //}
+}
+/* Medium devices (landscape tablets, 768px above ) */
+@media only screen and (min-width: 768px ) and (max-width: 992px) {
+.btn{
+  margin-left: 9px;
+  margin-right: 9px;
+  width: 22%;
+}
+  .distance{
+    font-size: 20px;
+  }
+  .price-card{
+    font-size: 20px;
+  }
+  td{
+    font-size: 18px;
+    padding: 10px;
+  }
+  //.button-product{
+  //  text-align: center;
+  //}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .btn{
+    width: 19%;
+  }
+  //.button-product{
+  //  text-align: center;
+  //}
+
+}
+.h-75-min{
+  min-height: 75vh;
+}
+

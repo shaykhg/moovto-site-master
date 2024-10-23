@@ -1,0 +1,209 @@
+<div class="container-fluid p-0">
+  <div class="hero_img" *ngIf="translate.lang === 'en'">
+    <img
+      alt=""
+      class="img-fluid web_img"
+      src="assets/img/rider/become-rider-web.png"
+    />
+    <img
+      alt=""
+      class="img-fluid phone_img"
+      src="assets/img/rider/become-ride-phn.png"
+    />
+  </div>
+
+  <div class="hero_img" *ngIf="translate.lang === 'fi'">
+    <img
+      alt=""
+      class="img-fluid web_img"
+      src="../../assets/img/finnish-banner/rider_web.png"
+    />
+    <img
+      alt=""
+      class="img-fluid phone_img"
+      src="../../assets/img/finnish-banner/phone/rider.png"
+    />
+  </div>
+
+
+  <div class="row">
+    <div class="text-center mt-5">
+      <h1 class="fw-bold">{{ "whatOffer" | language }}</h1>
+    </div>
+    <div class="col-lg-6">
+      <div class="box">
+        <img alt="" class="service_img img-fluid" src="assets/img/jhdh.png" />
+        <div class="mt-3 text-center">
+          <h4>{{ "deliverFoot" | language }}</h4>
+          <p class="px-4 text-center">
+            {{ "deliverFootDes" | language }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6">
+      <div class="box">
+        <img
+          alt=""
+          class="service_img img-fluid"
+          src="assets/img/jdhjkdsds.png"
+        />
+        <div class="mt-3 text-center">
+          <h4>{{ "freedomEarn" | language }}</h4>
+          <p class="px-4 text-center">
+            {{ "deliverTimeSuits" | language }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row" style="overflow: hidden">
+      <div class="text-center fw-bold">
+        <h1 class="fw-bold">{{ "whyUs" | language }}</h1>
+      </div>
+      <div class="gaptop"></div>
+      <div class="col-lg-3">
+        <div class="box1">
+          <img
+            alt=""
+            class="service_img img-fluid"
+            src="assets/img/freedom-of-working.png"
+          />
+          <div class="mt-3 text-center">
+            <h4>{{ "freedomwork" | language }}</h4>
+            <p class="px-4 text-center">
+              {{ "deliverwherever" | language }}
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="box1">
+          <img
+            alt=""
+            class="service_img img-fluid"
+            src="assets/img/fast-onboardng.png"
+          />
+          <div class="mt-3 text-center">
+            <h4>{{ "earnMore" | language }}</h4>
+            <p class="px-4 text-center">
+              {{ "earnDes" | language }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="box1">
+          <img
+            alt=""
+            class="service_img img-fluid"
+            src="assets/img/join-hands.png"
+          />
+          <div class="mt-3 text-center">
+            <h4>{{ "joinHands" | language }}</h4>
+            <p class="px-4 text-center">
+              {{ "askFriend" | language }}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="box1">
+          <img
+            alt=""
+            class="service_img img-fluid"
+            src="assets/img/earn_more.png"
+          />
+          <div class="mt-3 text-center">
+            <h4>{{ "fastonboard" | language }}</h4>
+            <p class="px-4 text-center">
+              {{ "joinEasy" | language }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="gaptop"></div>
+<div class="container-fluid rider_background">
+  <div class="row">
+    <div class="col-lg-6 text-center">
+      <img alt="" class="rider_img" src="assets/img/joinus.png" />
+    </div>
+    <div class="col-lg-6 position-relative pt-4 pb-4">
+      <h1>{{ "joinUs" | language }}</h1>
+      <p>{{ "andbecomeRider" | language }}</p>
+      <form [formGroup]="riderForm" (ngSubmit) = "onSubmit()">
+        <div class="row mt-4">
+          <div class="col">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>{{ "name" | language }}</mat-label>
+              <input formControlName="name" matInput placeholder="Name" type="text" />
+            </mat-form-field>
+          </div>
+          <div class="col">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>{{ "deliverby" | language }}</mat-label>
+              <mat-select formControlName="vehicle">
+                <mat-option value="Foot"> {{ "onfoot" | language }}</mat-option>
+                <mat-option value="Foot"> {{ "van" | language }}</mat-option>
+                <mat-option value="Foot">
+                  {{ "bycycle" | language }}</mat-option
+                >
+                <mat-option value="Foot"> {{ "scooter" | language }}</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>{{ "personalid" | language }}</mat-label>
+              <input formControlName="personalId" matInput type="text" />
+            </mat-form-field>
+          </div>
+          <div class="col">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>{{"phone"|language}}</mat-label>
+              <input formControlName="phone" matInput type="text" maxlength="10" />
+            </mat-form-field>
+          </div>
+          <div class="col">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>{{"email"|language}}</mat-label>
+              <input formControlName="email" matInput type="email" maxlength="30" />
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="mt-5">
+          <h4>{{ "forcompanies" | language }}</h4>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>{{ "tradename" | language }}</mat-label>
+              <input formControlName="companyName" matInput type="email" />
+            </mat-form-field>
+          </div>
+          <div class="col">
+            <mat-form-field appearance="outline" class="w-100">
+              <mat-label>{{ "businessid" | language }}</mat-label>
+              <input formControlName="businessId" matInput type="text" />
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="form_btn">
+          <button *ngIf="!progress" (click)="sendEmail()" [disabled]="!riderForm.valid" class="rider_btn" type="submit">
+            {{ "send" | language }}
+          </button>
+          <mat-spinner *ngIf="progress" [diameter]="25"></mat-spinner>
+
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

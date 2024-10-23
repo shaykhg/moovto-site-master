@@ -1,0 +1,256 @@
+<section class="bgcolor">
+  <div class="container-fluid p-0">
+    <div *ngIf="translate.lang === 'en'">
+      <img alt="" class="img-fluid web_img" src="assets/img/cheap-moving.png" />
+      <img alt="" class="img-fluid mob_img" src="assets/img/trial.jpg" />
+    </div>
+
+    <div *ngIf="translate.lang === 'fi'">
+      <img alt="" class="img-fluid web_img" src="assets/img/finnish-banner/moving_delivery_web.png" />
+      <img alt="" class="img-fluid mob_img" src="assets/img/finnish-banner/phone/moving_delivery.png" />
+    </div>
+
+
+    <div class="container mt-5">
+      <div class="text-center">
+        <h2>{{ "chooseVehicle" | language }}</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="box">
+            <img
+              alt=""
+              class="service_img img-fluid"
+              src="assets/img/bycycle.png"
+            />
+            <div class="mt-3 text-center">
+              <h4>{{ "bycleScooter" | language }}</h4>
+              <p class="px-4 text-center">
+                {{ "bycleDescription" | language }}
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box">
+            <img
+              alt=""
+              class="service_img img-fluid"
+              src="assets/img/car.png"
+            />
+            <div class="mt-3 text-center">
+              <h4>{{ "car" | language }}</h4>
+              <p class="px-4 text-center">
+                {{ "carDescription" | language }}
+                <br />25km
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="box">
+            <img
+              alt=""
+              class="service_img img-fluid"
+              src="assets/img/van.png"
+            />
+            <div class="mt-3 text-center">
+              <h4>{{ "van" | language }}</h4>
+              <p class="px-4 text-center">
+                {{ "vanDescription" | language }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="title-head">
+      <b>{{ "howWork" | language }}</b>
+    </h1>
+    <div class="container">
+      <div class="row" style="padding: 15px">
+        <div class="col-lg col-md-6 col-sm-12 align-self-center">
+          <div [class]="getStyle(0, 1)" (click)="setStyle(0)">
+            <span class="col-1">
+              <span [class]="getStyle(0, 2)">1</span>
+            </span>
+            <span class="col-10 m-l-5">
+              <span
+                >{{ "tellusWant" | language }}
+                <!-- <span class="text_spece">Saapimusilmoitus</span> -->
+              </span>
+            </span>
+          </div>
+
+          <div
+            [class]="getStyle(1, 1)"
+            (click)="setStyle(1)"
+            style="margin: 50px 0"
+          >
+            <span class="col-1">
+              <span [class]="getStyle(1, 2)">2</span>
+            </span>
+            <span class="col-10 m-l-5">
+              <span
+                >{{ "chooseDelivery" | language }} {{ "suitsYou" | language }}
+              </span>
+
+              <!-- <span class="text_spece">id</span> -->
+            </span>
+          </div>
+
+          <div [class]="getStyle(2, 1)" (click)="setStyle(2)">
+            <span class="col-1">
+              <span [class]="getStyle(2, 2)">3</span>
+            </span>
+            <span class="col-10 m-l-5">
+              <span>{{ "chooseVehicleDesc" | language }} </span>
+            </span>
+          </div>
+        </div>
+        <div class="col-lg col-md-6 col-sm-12">
+          <div class="trans-cont">
+            <div
+              [style]="
+                images[0] ? { visibility: 'visible' } : { display: 'none' }
+              "
+              class="phn-img-cont"
+            >
+              <img src="/assets/img/moving-item.png" alt="" class="dummy-img" />
+            </div>
+            <div
+              [style]="
+                images[1] ? { visibility: 'visible' } : { display: 'none' }
+              "
+              class="phn-img-cont"
+            >
+              <img
+                src="/assets/img/delivery-schedule.png"
+                alt=""
+                class="dummy-img"
+              />
+            </div>
+            <div
+              [style]="
+                images[2] ? { visibility: 'visible' } : { display: 'none' }
+              "
+              class="phn-img-cont"
+            >
+              <img
+                src="/assets/img/choose-vehicle (1).png"
+                alt=""
+                class="dummy-img"
+              />
+            </div>
+
+            <div
+              [style]="
+                images[3] ? { visibility: 'visible' } : { display: 'none' }
+              "
+              class="phn-img-cont"
+            >
+              <img
+                src="/assets/img/pick-your-order.png"
+                alt=""
+                class="dummy-img"
+              />
+            </div>
+            <div
+              [style]="
+                images[4] ? { visibility: 'visible' } : { display: 'none' }
+              "
+              class="phn-img-cont"
+            >
+              <img src="/assets/img/drop-order.png" alt="" class="dummy-img" />
+            </div>
+            <div
+              [style]="
+                images[5] ? { visibility: 'visible' } : { display: 'none' }
+              "
+              class="phn-img-cont"
+            >
+              <img
+                src="/assets/img/place-order_3.png"
+                alt=""
+                class="dummy-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg col-md-6 col-sm-12 align-self-center">
+          <div [class]="getStyle(3, 3)" (click)="setStyle(3)">
+            <span class="col-1">
+              <span [class]="getStyle(3, 2)">4</span>
+            </span>
+            <span class="col-10 m-l-5">
+              <span
+                >{{ "wheretopickOrder" | language }}
+                <!-- <span class="text_spece">delivered</span> -->
+              </span>
+            </span>
+          </div>
+          <div
+            [class]="getStyle(4, 3)"
+            (click)="setStyle(4)"
+            style="margin: 50px 0"
+          >
+            <span class="col-1">
+              <span [class]="getStyle(4, 2)">5</span>
+            </span>
+            <span class="col-10 m-l-5">
+              <span
+                >{{ "wheredropOrder" | language }}
+                {{ "order" | language }}</span
+              >
+            </span>
+          </div>
+          <div [class]="getStyle(5, 3)" (click)="setStyle(5)">
+            <span class="col-1"> <span [class]="getStyle(5, 2)">6</span></span>
+            <span class="col-10 m-l-5">
+              <span>
+                {{ "placeorderSmooth" | language }}
+                <!-- <span class="text_speces">your home.</span> -->
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid myList">
+      <div class="text-center mb-5">
+        <h1 class="py-4 list_heading fw-bold m-top">
+          {{ "moveEverything" | language }}
+        </h1>
+      </div>
+      <div class="row group_list">
+        <div class="col-lg-6 text-center">
+          <img alt="" class="img-fluid" src="assets/img/leftimage.png" />
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <div class="row list_item">
+            <div class="col-lg-6 text-start">
+              <li>{{ "letters" | language }}</li>
+              <li>{{ "parcels" | language }}</li>
+              <li>{{ "carMoter" | language }}</li>
+              <li>{{ "domesticApp" | language }}</li>
+            </div>
+
+            <div class="col-lg-6 text-start">
+              <li>{{ "buildingMaterial" | language }}</li>
+              <li>{{ "sEquipment" | language }}</li>
+              <li>{{ "consumerElec" | language }}</li>
+              <!--            <li>You name it!</li>-->
+            </div>
+          </div>
+          <div>
+            <h2 style="padding-left: 17px">
+              {{ "nameit" | language }}
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

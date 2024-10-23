@@ -1,0 +1,220 @@
+<section class="bgcolor">
+  <div *ngIf="translate.lang === 'en'">
+    <div class="hero-desk">
+      <img
+        src="/assets/img/parcel_delivery_phn.png"
+        alt=""
+        class="img-fluid hero-img"
+      />
+    </div>
+    <div class="hero-mobile" >
+      <img
+        src="/assets/img/parcel_delivery_mob.png"
+        alt=""
+        class="img-fluid hero-img"
+      />
+    </div>
+  </div>
+
+
+  <div *ngIf="translate.lang === 'fi'">
+    <div class="hero-desk">
+      <img
+        src="/assets/img/finnish-banner/parcel_delivery_web.png"
+        alt=""
+        class="img-fluid hero-img"
+      />
+    </div>
+    <div class="hero-mobile">
+      <img
+        src="/assets/img/finnish-banner/phone/parcel_delivery.png"
+        alt=""
+        class="img-fluid hero-img"
+      />
+    </div>
+  </div>
+
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-6 align-self-center text-center brand_text_mob">
+        <h1>{{ "seeandGet" | language }}</h1>
+
+        <p>{{ "getwithusDescription" | language }}</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="assets/img/logo3.png" alt="" class="img-fluid" />
+        <img src="assets/img/posti.png" alt="" class="img-fluid" />
+        <img src="assets/img/postnord.png" alt="" class="img-fluid" />
+      </div>
+      <div class="col-lg-6 align-self-center text-center brand_text">
+        <h1>{{ "seeandGet" | language }}</h1>
+
+        <p>
+          {{ "getwithusDescription" | language }}
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <h1 class="title-head">
+    <b> {{ "howWork" | language }}</b>
+  </h1>
+  <div class="container">
+    <div class="row" style="padding: 15px">
+      <div class="col-lg col-md-6 col-sm-12 align-self-center">
+        <div [class]="getStyle(0, 1)" (click)="setStyle(0)">
+          <span class="col-1">
+            <span [class]="getStyle(0, 2)">1</span>
+          </span>
+          <span class="col-10 m-l-5">
+            <span>{{ "uploadSnap" | language }} {{ "Saap" | language }}</span>
+          </span>
+        </div>
+
+        <div
+          [class]="getStyle(1, 1)"
+          (click)="setStyle(1)"
+          style="margin: 50px 0"
+        >
+          <span class="col-1">
+            <span [class]="getStyle(1, 2)">2</span>
+          </span>
+          <span class="col-10 m-l-5">
+            <span
+              >{{ "fillAdd" | language }}{{ "id" | language }}
+
+              <!-- <span class="text_spece">id</span> -->
+            </span>
+          </span>
+        </div>
+
+        <div [class]="getStyle(2, 1)" (click)="setStyle(2)">
+          <span class="col-1">
+            <span [class]="getStyle(2, 2)">3</span>
+          </span>
+          <span class="col-10 m-l-5">
+            <span> {{ "fillHomeAdd" | language }} </span>
+          </span>
+        </div>
+      </div>
+      <div class="col-lg col-md-6 col-sm-12">
+        <div class="trans-cont">
+          <div
+            [style]="
+              images[0] ? { visibility: 'visible' } : { display: 'none' }
+            "
+            class="phn-img-cont"
+          >
+            <img src="/assets/img/upload_1.png" alt="" class="dummy-img" />
+          </div>
+          <div
+            [style]="
+              images[1] ? { visibility: 'visible' } : { display: 'none' }
+            "
+            class="phn-img-cont"
+          >
+            <img
+              src="/assets/img/loacl-post-office.png"
+              alt=""
+              class="dummy-img"
+            />
+          </div>
+          <div
+            [style]="
+              images[2] ? { visibility: 'visible' } : { display: 'none' }
+            "
+            class="phn-img-cont"
+          >
+            <img src="/assets/img/home-address.png" alt="" class="dummy-img" />
+          </div>
+
+          <div
+            [style]="
+              images[3] ? { visibility: 'visible' } : { display: 'none' }
+            "
+            class="phn-img-cont"
+          >
+            <img src="/assets/img/time_1.png" alt="" class="dummy-img" />
+          </div>
+          <div
+            [style]="
+              images[4] ? { visibility: 'visible' } : { display: 'none' }
+            "
+            class="phn-img-cont"
+          >
+            <img src="/assets/img/place-order_3.png" alt="" class="dummy-img" />
+          </div>
+          <div
+            [style]="
+              images[5] ? { visibility: 'visible' } : { display: 'none' }
+            "
+            class="phn-img-cont"
+          >
+            <img src="/assets/img/6th.png" alt="" class="dummy-img" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg col-md-6 col-sm-12 align-self-center">
+        <div [class]="getStyle(3, 3)" (click)="setStyle(3)">
+          <span class="col-1">
+            <span [class]="getStyle(3, 2)">4</span>
+          </span>
+          <span class="col-10 m-l-5">
+            <span>
+              {{ "timeofParcel" | language }}
+              {{ "delivered" | language }}
+            </span>
+          </span>
+        </div>
+        <div
+          [class]="getStyle(4, 3)"
+          (click)="setStyle(4)"
+          style="margin: 50px 0"
+        >
+          <span class="col-1">
+            <span [class]="getStyle(4, 2)">5</span>
+          </span>
+
+          <span class="col-10 m-l-5">
+            <span> {{ "placeOrder" | language }} </span>
+          </span>
+        </div>
+        <div [class]="getStyle(5, 3)" (click)="setStyle(5)">
+          <span class="col-1">
+            <span [class]="getStyle(5, 2)">6</span>
+          </span>
+
+          <span class="col-10 m-l-5">
+            <span
+              >{{ "getparcelComfort" | language }} {{ "yourHome" | language }}
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5 work_div">
+    <h1>{{ "downrecieveParcel" | language }}</h1>
+
+    <a
+      href="https://play.google.com/store/apps/details?id=app.moov.to"
+      target="_blank"
+      class="mb-5"
+      ><img
+        src="assets/img/google-play-badge.png"
+        alt=""
+        class="img-fluid google_img"
+    /></a>
+    <a
+      href="https://apps.apple.com/us/app/moovto/id1562355638"
+      target="_blank"
+      class="mb-5"
+      ><img
+        src="assets/img/app-store.png"
+        alt=""
+        class="img-fluid app_img"
+    /></a>
+  </div>
+</section>
